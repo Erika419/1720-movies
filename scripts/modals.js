@@ -31,7 +31,7 @@ closeButton.addEventListener("click", () => {
 })
 
 //Creates a card for each movie  
-showMovies.forEach(movie => {
+allMovies.forEach(movie => {
     //console.log(movie);
     const movieCard = document.createElement("section");
     movieCard.innerHTML =`
