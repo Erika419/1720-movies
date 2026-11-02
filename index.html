@@ -34,6 +34,7 @@
     
     <script src="scripts/navigation.js" defer> </script>
      <script src="scripts/scripts.js" defer> </script>
+     <script src="scripts/modals.js" defer> </script>
     </head>
 
 
@@ -41,11 +42,11 @@
     <header>
         <img src="images/favicon.svg" alt="site logo" width="16" height="16">
         <span style="color:black; background-color: rgba(208, 208, 208, 0.542); width: 185px;"> 1720-Weather</span>
-        <!--   <button id="hamburger" class="hamburger" aria-label="nav link button"></button>-->
+           <button id="hamburger" class="hamburger" aria-label="nav link button"></button>
     </header> 
  
             
-        <!--    
+           
         <nav id="navbar">
             <ul>
                 <li>
@@ -65,22 +66,17 @@
                 </li>
             </ul>
         </nav> 
-        -->
+        
 
 
         <main>
-            <h1 style="color:black; background-color: rgba(208, 208, 208, 0.542); width: 180px;">Weather</h1>
-            <div id="photos" class="show-here"></div>
-            <div id="button-container">
-            <button id="park1">Wasatch</button>
-            <button id="park2">Everglades</button>
-            <button id="park3">Bryce Canyon</button>
-             <button id="park4">Mammoth</button>
-             </div>
+            <h1>1720-Movies</h1>
+            <button id="openButton"> More Information</button>
 
-            <div id="info"></div>
-
-
+            <dialog id="popupBox" class="show-stuff">
+                <p>Placeholder text for the modal dialog.</p>
+                <button id="closeButton">Close</button>
+            </dialog>
       
         </main>
 
