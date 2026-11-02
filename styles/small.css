@@ -311,6 +311,11 @@ nav li a.active {
 
 .show-stuff p{
     color:var(--color-primary);
+    span{
+        font-weight:700;
+        color:var(--color-mygrey-60);
+        font-variant: small-caps;
+    };
 }
 
 .show-stuff button{
