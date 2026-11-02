@@ -4,7 +4,7 @@ export const allMovies=[  {
     "director": "Peter Jackson",
     "studio": "New Line Cinema",
     "summary": "A young hobbit named Frodo inherits a powerful ring and begins a dangerous journey to destroy it before the Dark Lord Sauron can reclaim it.",
-    "poster": "fellowship-of-the-ring.jpg"
+    "poster": "fellowship-of-the-ring.webp"
   },
   {
     "title": "Harry Potter and the Sorcerer's Stone",
@@ -12,7 +12,7 @@ export const allMovies=[  {
     "director": "Chris Columbus",
     "studio": "Warner Bros. Pictures",
     "summary": "An orphaned boy discovers he is a wizard and begins attending Hogwarts School of Witchcraft and Wizardry, where he uncovers secrets about his past.",
-    "poster": "harry-potter-sorcerers-stone.jpg"
+    "poster": "harry-potter-sorcerers-stone.webp"
   },
   {
     "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
@@ -20,7 +20,7 @@ export const allMovies=[  {
     "director": "Andrew Adamson",
     "studio": "Walt Disney Pictures",
     "summary": "Four siblings enter a magical world through a wardrobe and join the noble lion Aslan in the fight against the White Witch.",
-    "poster": "narnia-lion-witch-wardrobe.jpg"
+    "poster": "narnia-lion-witch-wardrobe.webp"
   },
   {
     "title": "Pan's Labyrinth",
@@ -28,7 +28,7 @@ export const allMovies=[  {
     "director": "Guillermo del Toro",
     "studio": "Warner Bros. Pictures",
     "summary": "A young girl escapes the horrors of postwar Spain by entering a mysterious fantasy world filled with magical creatures and dangerous challenges.",
-    "poster": "pans-labyrinth.jpg"
+    "poster": "pans-labyrinth.webp"
   },
   {
     "title": "Stardust",
@@ -36,7 +36,7 @@ export const allMovies=[  {
     "director": "Matthew Vaughn",
     "studio": "Paramount Pictures",
     "summary": "A young man ventures into a magical kingdom to retrieve a fallen star and discovers that the star is actually a woman with extraordinary powers.",
-    "poster": "stardust.jpg"
+    "poster": "stardust.webp"
   },
   {
     "title": "The Golden Compass",
@@ -44,7 +44,7 @@ export const allMovies=[  {
     "director": "Chris Weitz",
     "studio": "New Line Cinema",
     "summary": "A young girl travels across a mysterious parallel world to rescue kidnapped children and uncover a powerful secret about the universe.",
-    "poster": "golden-compass.jpg"
+    "poster": "golden-compass.webp"
   },
   {
     "title": "Alice in Wonderland",
@@ -52,7 +52,7 @@ export const allMovies=[  {
     "director": "Tim Burton",
     "studio": "Walt Disney Pictures",
     "summary": "Alice returns to the fantastical world of Wonderland, where she must help its unusual inhabitants defeat the Red Queen.",
-    "poster": "alice-in-wonderland.jpg"
+    "poster": "alice-in-wonderland.webp"
   },
   {
     "title": "How to Train Your Dragon",
@@ -60,7 +60,7 @@ export const allMovies=[  {
     "director": "Chris Sanders and Dean DeBlois",
     "studio": "DreamWorks Animation",
     "summary": "A young Viking befriends an injured dragon, challenging his village's traditions and discovering that dragons are not the monsters everyone believes them to be.",
-    "poster": "how-to-train-your-dragon.jpg"
+    "poster": "how-to-train-your-dragon.webp"
   },
   {
     "title": "The Hobbit: An Unexpected Journey",
@@ -68,7 +68,7 @@ export const allMovies=[  {
     "director": "Peter Jackson",
     "studio": "New Line Cinema",
     "summary": "Bilbo Baggins joins a company of dwarves on an adventure to reclaim their homeland and its treasure from the fearsome dragon Smaug.",
-    "poster": "hobbit-unexpected-journey.jpg"
+    "poster": "hobbit-unexpected-journey.webp"
   },
   {
     "title": "The Hunger Games",
@@ -76,7 +76,7 @@ export const allMovies=[  {
     "director": "Gary Ross",
     "studio": "Lionsgate",
     "summary": "In a dystopian society, Katniss Everdeen volunteers to compete in a televised fight for survival, challenging the oppressive government.",
-    "poster": "hunger-games.jpg"
+    "poster": "hunger-games.webp"
   },
   {
     "title": "Maleficent",
@@ -84,7 +84,7 @@ export const allMovies=[  {
     "director": "Robert Stromberg",
     "studio": "Walt Disney Pictures",
     "summary": "A powerful fairy seeks revenge after being betrayed, placing a curse on a princess before discovering an unexpected connection with her.",
-    "poster": "maleficent.jpg"
+    "poster": "maleficent.webp"
   },
   {
     "title": "The Shape of Water",
@@ -92,7 +92,7 @@ export const allMovies=[  {
     "director": "Guillermo del Toro",
     "studio": "Fox Searchlight Pictures",
     "summary": "A lonely woman working in a secret government laboratory forms an extraordinary bond with a mysterious aquatic creature.",
-    "poster": "shape-of-water.jpg"
+    "poster": "shape-of-water.webp"
   },
   {
     "title": "Coco",
@@ -100,7 +100,7 @@ export const allMovies=[  {
     "director": "Lee Unkrich",
     "studio": "Pixar Animation Studios",
     "summary": "A young aspiring musician accidentally enters the Land of the Dead, where he discovers his family's history and the importance of remembering loved ones.",
-    "poster": "coco.jpg"
+    "poster": "coco.webp"
   },
   {
     "title": "Fantastic Beasts and Where to Find Them",
@@ -108,7 +108,7 @@ export const allMovies=[  {
     "director": "David Yates",
     "studio": "Warner Bros. Pictures",
     "summary": "A magical creature researcher arrives in New York City, where escaped fantastic beasts create chaos and uncover a hidden magical threat.",
-    "poster": "fantastic-beasts.jpg"
+    "poster": "fantastic-beasts.webp"
   },
   {
     "title": "The Green Knight",
@@ -116,7 +116,7 @@ export const allMovies=[  {
     "director": "David Lowery",
     "studio": "A24",
     "summary": "King Arthur's reckless nephew accepts a mysterious challenge from the Green Knight and embarks on a dangerous journey to prove his honor.",
-    "poster": "green-knight.jpg"
+    "poster": "green-knight.webp"
   },
   {
     "title": "Dungeons & Dragons: Honor Among Thieves",
@@ -124,7 +124,7 @@ export const allMovies=[  {
     "director": "Jonathan Goldstein and John Francis Daley",
     "studio": "Paramount Pictures",
     "summary": "A charming thief and his unlikely group of adventurers attempt an ambitious heist that leads them into a battle against powerful magical forces.",
-    "poster": "dungeons-dragons-honor-among-thieves.jpg"
+    "poster": "dungeons-dragons-honor-among-thieves.webp"
   },
   {
     "title": "The Super Mario Bros. Movie",
@@ -132,7 +132,7 @@ export const allMovies=[  {
     "director": "Aaron Horvath and Michael Jelenic",
     "studio": "Universal Pictures",
     "summary": "Two Brooklyn plumbers are transported to a magical kingdom, where Mario teams up with new friends to rescue his brother Luigi.",
-    "poster": "super-mario-bros-movie.jpg"
+    "poster": "super-mario-bros-movie.webp"
   },
   {
     "title": "Wonka",
@@ -140,7 +140,7 @@ export const allMovies=[  {
     "director": "Paul King",
     "studio": "Warner Bros. Pictures",
     "summary": "An imaginative young chocolatier arrives in a city controlled by a chocolate cartel and works to make his dream of opening a chocolate shop come true.",
-    "poster": "wonka.jpg"
+    "poster": "wonka.webp"
   },
   {
     "title": "The Boy and the Heron",
@@ -148,7 +148,7 @@ export const allMovies=[  {
     "director": "Hayao Miyazaki",
     "studio": "Studio Ghibli",
     "summary": "A young boy enters a mysterious tower and discovers a fantastical world inhabited by strange creatures while searching for answers about life and loss.",
-    "poster": "boy-and-the-heron.jpg"
+    "poster": "boy-and-the-heron.webp"
   },
   {
     "title": "Wicked",
@@ -156,5 +156,5 @@ export const allMovies=[  {
     "director": "Jon M. Chu",
     "studio": "Universal Pictures",
     "summary": "Two young witches at Shiz University form an unexpected friendship as they navigate prejudice, ambition, and the secrets of the Land of Oz.",
-    "poster": "wicked.jpg"
+    "poster": "wicked.webp"
   }]
