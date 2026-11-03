@@ -328,6 +328,10 @@ section:hover{
     transition: transform 0.3s ease;
 }
 
+.show-stuff:hover{
+    transform: translateY(-5px);
+}
+
 .show-stuff img{
     width:100%;
     height: auto;
@@ -353,10 +357,6 @@ section:hover{
     box-shadow: 0 0 10px var(--color-primary);
     text-align: center;
     width:300px;
-}
-
-.show-stuff:hover{
-    transform: translateY(-5px);
 }
 
 button{
