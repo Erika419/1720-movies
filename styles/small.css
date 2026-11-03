@@ -305,7 +305,6 @@ nav li a.active {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
     align-items:end;
-    transform: translateY(-5px);
 }
 
 section{
@@ -345,6 +344,7 @@ section{
     border-radius:10px;
     box-shadow: 0 0 10px var(--color-primary);
     text-align: center;
+    transform: translateY(-5px);
 }
 
 .show-stuff:hover{
