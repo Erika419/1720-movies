@@ -27,13 +27,7 @@
 body{
   font-family: "Redaction 35", serif;
   color: black;
-  background: no-repeat;
-  margin:0;
-  padding:0;
-  background-size:cover;
-  height: 100vh;
-  background-position:center;
-  transition: background-image 0.5s ease;
+  background-color: var(--color-mygrey-90);
 }
 
 /**header tag**/

@@ -10,25 +10,6 @@ const popupBox =document.querySelector("#popupBox");
 const popupInfo =document.querySelector("#popupBox div");
 const closeButton =document.querySelector("#closeButton");
 
-//creates buttons for each dialog box
-apple.addEventListener("click", () => {
-    popupInfo.innerHTML="An apple has 55 calories."
-    popupBox.showModal()
-})
-
-orange.addEventListener("click", () => {
-    popupInfo.innerHTML="An orange has 62 calories."
-    popupBox.showModal()
-})
-
-lime.addEventListener("click", () => {
-    popupInfo.innerHTML="A lime has 20 calories."
-    popupBox.showModal()
-})
-
-closeButton.addEventListener("click", () => {
-    popupBox.close()
-})
 
 //Creates a card for each movie  
 allMovies.forEach(movie => {
@@ -50,8 +31,7 @@ function showStuff(movie){
     <p><span> Release Date: </span> ${movie.releaseDate}</p>
     <p><span> Director: </span> ${movie.director}</p>
     <p><span> Studio: </span> ${movie.studio}</p>
-    <p><span> Summary: </span> ${movie.summary}</p>
-    <p><span> Poster: </span> ${movie.poster}</p>`
+    <p><span> Summary: </span> ${movie.summary}</p>`
 
     popupBox.showModal();
 }
