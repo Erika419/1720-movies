@@ -20,7 +20,7 @@ allMovies.forEach(movie => {
     showMovies.appendChild(movieCard);
 });
 
-//shows info for each card/dialog and has a close button
+//shows info for each card/dialog once more info is clicked and has a close button
 function showStuff(movie){
     console.log(movie);
     popupInfo.innerHTML = `
