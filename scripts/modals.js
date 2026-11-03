@@ -13,7 +13,7 @@ allMovies.forEach(movie => {
     const movieCard = document.createElement("section");
     movieCard.innerHTML =`
         <h2>${movie.title}</h2>
-        <img src="images/${movie.poster}" alt="${movie.title}" width="400" height="225">
+        <img src="images/${movie.poster}" alt="${movie.title}" width="200" height="300">
         <button> More Info</button>
     `;
     movieCard.querySelector("button").addEventListener("click", () => showStuff(movie))
@@ -21,18 +21,17 @@ allMovies.forEach(movie => {
 });
 
 //shows info for each card/dialog once more info is clicked and has a close button
-function showStuff(movie){
-    console.log(movie);
+function showStuff(m){
+    console.log(m);
     popupInfo.innerHTML = `
-    <p><span> Title: </span> ${movie.title}</p>
-    <p><span> Release Date: </span> ${movie.releaseDate}</p>
-    <p><span> Director: </span> ${movie.director}</p>
-    <p><span> Studio: </span> ${movie.studio}</p>
-    <p><span> Summary: </span> ${movie.summary}</p>`
+    <p><span> Title: </span> ${m.title}</p>
+    <p><span> Release Date: </span> ${m.releaseDate}</p>
+    <p><span> Director: </span> ${m.director}</p>
+    <p><span> Studio: </span> ${m.studio}</p>
+    <p><span> Summary: </span> ${m.summary}</p>`
 
     popupBox.showModal();
 }
 
-closeButton.addEventListener("click", () => {
-    popupBox.close();
-});
+closeButton.addEventListener(('click'), () => {
+    popupBox.close()});
