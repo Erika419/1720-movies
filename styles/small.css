@@ -299,6 +299,8 @@ nav li a.active {
 }
 
 /**1720-movies styling**/
+    
+/**showMovies is the div that will hold all the movie cards that are generated from the movies.mjs file**/
 #showMovies{
     text-align: center;
     display:grid;
@@ -307,6 +309,7 @@ nav li a.active {
     align-items:end;
 }
 
+/**section is the look of each card**/
 section{
     border-radius:10px;
     box-shadow: 0 0 10px var(--color-primary);
@@ -317,6 +320,7 @@ section:hover{
     transform: translateY(-5px);
 }
 
+/**show-stuff refers to the class that stylizes the dialog box**/
 .show-stuff{
     border: 2px solid var(--color-secondary);
     border-radius:10px;
@@ -341,13 +345,14 @@ section:hover{
     font-size: 1rem;
     transition: background-color 0.5s ease-in-out;
 }
-
+/**popupBox stylizes things on the dialog box**/
 #popupBox{
     border: 2px solid var(--color-secondary);
     background-color: rgba(255, 255, 255, 0.85);
     border-radius:10px;
     box-shadow: 0 0 10px var(--color-primary);
     text-align: center;
+    width:300px;
 }
 
 .show-stuff:hover{
@@ -377,11 +382,6 @@ button:hover{
     box-shadow: 0 0 10px var(--color-mygrey-30);
 }
 
-dialog{
-    width:300px;
-    border: 2px solid var(--color-secondary);
-    background-color: rgba(255, 255, 255, 0.85);
-}
 
 /**footer tag**/
     footer{
