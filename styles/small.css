@@ -314,19 +314,19 @@ nav li a.active {
     transform: translateY(-5px);
 }
 
-.showMovies h2{
+.show-stuff h2{
     color: var(--color-mygrey-10);
     text-align: center;
     font-weight:300;
     margin:10px;
 }
 
-.showMovies img{
+.show-stuff img{
     width:100%;
     height: auto;
 }
 
-.showMovies button{
+.show-stuff button{
     background-color: var(--color-secondary);
     border: 1px solid var(--color-mygrey-90);
     border-radius: 10px;
@@ -339,7 +339,7 @@ nav li a.active {
     transition: background-color 0.5s ease-in-out;
 }
 
-.showMovies button:hover{
+.show-stuff button:hover{
     background-color: var(--color-primary);
     box-shadow: 0 0 10px var(--color-mygrey-30);
 }
