@@ -309,6 +309,17 @@ nav li a.active {
     align-items:end;
 }
 
+.showMovies h2{
+    color: var(--color-mygrey-10);
+    text-align: center;
+    font-weight:300;
+    margin:10px;
+}
+
+.showMovies img{
+    width:100%;
+    height: auto;
+}
 
 /**footer tag**/
     footer{
