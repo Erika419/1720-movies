@@ -1,10 +1,6 @@
 import { allMovies } from "../data/movies.mjs";
 
 
-const apple = document.querySelector("#openButton1");
-const orange = document.querySelector("#openButton2");
-const lime = document.querySelector("#openButton3");
-
 const showMovies = document.querySelector("#showMovies");
 const popupBox =document.querySelector("#popupBox");
 const popupInfo =document.querySelector("#popupBox div");

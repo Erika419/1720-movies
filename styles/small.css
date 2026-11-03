@@ -299,26 +299,16 @@ nav li a.active {
 }
 
 /**1720-movies styling**/
-.show-stuff{
-    background-color: var(--color-mygrey-10);
+#popupBox{
+    border: 2px solid var(--color-mygrey-80);
+    background-color: var(--color-mygrey-90);
+    border-radius:10px;
+    box-shadow: 0 0 10px var(--color-primary);
+    text-align: center;
+    display:grid;
+    align-items:end;
 }
 
-.show-stuff p{
-    color:var(--color-primary);
-    span{
-        font-weight:700;
-        color:var(--color-mygrey-60);
-        font-variant: small-caps;
-    };
-}
-
-.show-stuff button{
-    color:var(--color-secondary);
-}
-
-dialog::backdrop{
-    background-color: rgba(0,255,0,0.7);
-}
 
 /**footer tag**/
     footer{
