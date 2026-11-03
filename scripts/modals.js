@@ -12,7 +12,8 @@ allMovies.forEach(movie => {
     //console.log(movie);
     const movieCard = document.createElement("section");
     movieCard.innerHTML =`
-        <img src="images/${movie.poster}" alt="${movie.title}" width="400" height="600">
+        <h2>${movie.title}</h2>
+        <img src="images/${movie.poster}" alt="${movie.title}" width="400" height="225">
         <button> More Info</button>
     `;
     movieCard.querySelector("button").addEventListener("click", () => showStuff(movie))
