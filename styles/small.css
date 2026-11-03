@@ -313,6 +313,10 @@ section{
     height:490px;
 }
 
+section:hover{
+    transform: translateY(-5px);
+}
+
 .show-stuff{
     border: 2px solid var(--color-secondary);
     border-radius:10px;
@@ -344,7 +348,6 @@ section{
     border-radius:10px;
     box-shadow: 0 0 10px var(--color-primary);
     text-align: center;
-    transform: translateY(-5px);
 }
 
 .show-stuff:hover{
