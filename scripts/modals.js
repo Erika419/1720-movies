@@ -1,12 +1,10 @@
 import { allMovies } from "../data/movies.mjs";
 
+
 const showMovies = document.querySelector("#showMovies");
 const popupBox =document.querySelector("#popupBox");
 const popupInfo =document.querySelector("#popupBox div");
 const closeButton =document.querySelector("#closeButton");
-
-
-import { allMovies } from "../data/movies.mjs";
 
 
 //Creates a card for each movie  
@@ -37,6 +35,9 @@ function showStuff(m){
 
 closeButton.addEventListener(('click'), () => {
     popupBox.close()});
+
+
+    
 const appleButton = document.getElementById("appleButton");
 const orangeButton = document.getElementById("orangeButton");
 const mangoButton = document.getElementById("mangoButton");

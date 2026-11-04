@@ -309,36 +309,6 @@ nav li a.active {
     align-items:end;
 }
 
-/**show-stuff refers to the class that stylizes the dialog box**/
-.show-stuff{
-    border: 2px solid var(--color-secondary);
-    border-radius:10px;
-    box-shadow: 0 0 10px var(--color-primary);
-    transition: transform 0.3s ease;
-}
-
-.show-stuff:hover{
-    transform: translateY(-5px);
-}
-
-.show-stuff img{
-    width:100%;
-    height: auto;
-}
-
-.show-stuff button{
-    background-color: var(--color-secondary);
-    border: 1px solid var(--color-mygrey-90);
-    border-radius: 10px;
-    margin:10px;
-    padding: 10px 40px;
-    box-shadow: 1px 1px 6px rgb(0 0 0 0.5);
-    color: var(--color-mygrey-90);
-    font-weight: 600;
-    font-size: 1rem;
-    transition: background-color 0.5s ease-in-out;
-}
-
 /**section is the look of each card**/
 section{
     border-radius:10px;
@@ -379,7 +349,6 @@ section:hover{
     font-size: 1rem;
     transition: background-color 0.5s ease-in-out;
 }
-
 /**popupBox stylizes things on the dialog box**/
 #popupBox{
     border: 2px solid var(--color-secondary);
