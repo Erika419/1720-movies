@@ -37,14 +37,14 @@ closeButton.addEventListener(('click'), () => {
     popupBox.close()});
 
 
-    
-const appleButton = document.getElementById("appleButton");
-const orangeButton = document.getElementById("orangeButton");
-const mangoButton = document.getElementById("mangoButton");
-const limeButton = document.getElementById("limeButton");
-const popupBox2 = document.getElementById("popupBox2");
-const popupInfo2 = document.getElementById("popupBox2 div");
-const closeButton2 = document.getElementById("closeButton2");
+
+const appleButton = document.querySelector("#appleButton");
+const orangeButton = document.querySelector("#orangeButton");
+const mangoButton = document.querySelector("#mangoButton");
+const limeButton = document.querySelector("#limeButton");
+const popupBox2 = document.querySelector("#popupBox2");
+const popupInfo2 = document.querySelector("#popupBox2 p");
+const closeButton2 = document.querySelector("#closeButton2");
 
 appleButton.addEventListener("click", () => {
     popupInfo2.innerHTML = "<p>Apples are a type of fruit that come in many varieties and are known for their crisp texture and sweet or tart flavor.</p>";
